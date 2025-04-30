@@ -6,21 +6,21 @@ if playing == "Y":
     print("Lets paly!")
 #elif playing == "N":
     #quit("see you again!")
-    question = input("what is stanrd for cpu ?")
+    question = input("what is standard for cpu ?")
     if question.lower() == "central processing unit":
-        print("corect!")
+        print("correct!")
         score += 1
         print(f"your score is :{score}")
     else:
-        print("incorect!")
+        print("incorrect!")
   
-    question2 = input("what is stanrd for RAM ?")
+    question2 = input("what is standard for RAM ?")
     if question2.lower() == "random access memory":
-        print("corect!")
+        print("correct!")
         score += 2
         print(f"your score is :{score}")
     else:
-        print("incorect!")
+        print("incorrect!")
        
 
 else:
