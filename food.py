@@ -21,7 +21,7 @@ while True:
             
 
 if  foods == True:
- print("your shoping cart")
+ print("your shopping cart")
 if foods:
     print("your cart is full")
     for i in range(len(foods)):
