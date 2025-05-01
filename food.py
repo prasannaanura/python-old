@@ -23,7 +23,7 @@ while True:
 if  foods == True:
  print("your shopping cart")
 if foods:
-    print("your cart is full")
+    print("Your cart is full")
     for i in range(len(foods)):
         print(f"{foods[i]:8} - ${prices[i]:.2f} ")
         total += prices[i]
